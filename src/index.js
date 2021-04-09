@@ -8,6 +8,7 @@ import reportWebVitals from './reportWebVitals';
 
 // { } is used to enclose any JS variable / JS expression / property / JS object
 
+//. RENDER FUNCTION CAN Take only 2 arguments
 
 //RENDERING HTML DIRECTLY 
 
@@ -30,7 +31,7 @@ import reportWebVitals from './reportWebVitals';
 // ReactDOM.render(
 //   <div>
 //   <h1>My Webpage</h1>
-//   <p> Using variables : my name is {name}  and my age is {age} years</p>
+//    {/* <p> Using variables : my name is {name}  and my age is {age} years</p>  */}
 //   <p> Using Objects : my name is  {obj.name} and age is {obj.age}</p>
 //   </div>,
 //   document.getElementById('root')
@@ -40,7 +41,7 @@ import reportWebVitals from './reportWebVitals';
 
 //RENDERING HTML INDIRECTLY 
 
-//CASE 1 : through variables as elements 
+// CASE 1 : through variables as elements 
 // var element = <div><h1>My Webpage</h1><p>hi there........</p></div>
 
 // ReactDOM.render(
@@ -66,6 +67,40 @@ import reportWebVitals from './reportWebVitals';
 //   document.getElementById('root')
 // );
 
+
+var name  = 'xyz';
+var age = 10;
+var booleanvalue = 'true'
+
+
+var veena ={
+    name : 'veena',
+    age : 10
+
+}
+
+ReactDOM.render(
+    <div>
+     <br></br>
+     <h1 style ={{ backgroundColor : 'green'}}>   My Webpage   </h1>
+     <p>hello {veena.name}</p> 
+
+     <p> hello {veena.name} </p>
+     </div>,
+     document.getElementById('root')
+    
+    )
+
+
+// ReactDOM.render(
+// <div>
+//  <br></br>
+//  <h1 style ={{ backgroundColor : 'red'}}>My Webpage</h1>,
+//  </div>,
+
+//  document.getElementById('notroot')
+
+// )
 
 
 
