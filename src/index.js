@@ -4,6 +4,7 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+
 //JSX is basically --> adding HTML to JS
 
 // { } is used to enclose any JS variable / JS expression / property / JS object
