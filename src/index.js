@@ -12,7 +12,6 @@ import OutsetBox from './StyledComponents';
 
 //Style attribute
 
-
 // ReactDOM.render(
 //   <div>
 //   <h1 style ={{backgroundColor : 'black', color : 'orange', textAlign :'center'}}>  My Webpage </h1>
