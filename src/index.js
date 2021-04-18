@@ -74,6 +74,7 @@ var booleanvalue = 'true'
 
 
 
+
 var veena ={
     name : 'veena',
     age : 10
@@ -84,6 +85,7 @@ ReactDOM.render(
     <div>
      <br></br>
      <h1 style ={{ backgroundColor : 'green'}}>   My Webpage   </h1>
+     <p>hello {name}</p> 
      <p>hello {veena.name}</p> 
 
      <p> hello {veena.name} </p>
